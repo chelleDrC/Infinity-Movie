@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400&display=swap');
+
+
+
+@layer base {
+  .font-merri-italic {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+  }
+
+  /* Hide scrollbars but allow scrolling */
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+ .text-stroke-white {
+    
+    text-shadow: -2px -5px #ffa8b6;
+    
+  }
+
+}
+
+body {
+  background-color: #19000D; /* or any color or image */
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
