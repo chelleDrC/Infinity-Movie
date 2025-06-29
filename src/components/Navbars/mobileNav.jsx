@@ -50,7 +50,7 @@ function MobileNav() {
             className="text-[25px] transition-text duration-300 hover:text-[28px] hover:text-[#FF48AA]"
             onClick={handleClick}
           />
-          <img src="../public/Logo.svg" alt="Logo" className="w-[97px]" />
+          <img src="/Logo.svg" alt="Logo" className="w-[97px]" />
         </div>
 
         {/* rightSide */}

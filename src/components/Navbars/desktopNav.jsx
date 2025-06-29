@@ -34,7 +34,7 @@ function DesktopNav() {
     <div className="flex flex-row max-w-full max-h-[60px] h-[60px] p-2 px-10 bg-gradient-to-r from-[#2B0017] to-[#54002D] text-white rounded-b-[20px]">
       {/* leftSide */}
       <div className="w-full h-full  flex items-center gap-5">
-        <img src="../public/Logo.svg" alt="Logo" className="w-[97px]" />
+        <img src="/Logo.svg" alt="Logo" className="w-[97px]" />
         {/* Container of Tabs  */}
         <div>
           <div className="flex flex-row gap-4 ml-4">
