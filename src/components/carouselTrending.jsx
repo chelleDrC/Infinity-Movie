@@ -47,7 +47,7 @@ function CarouselTrending({ movies }) {
             maskSize: "100% 100%",
           }}
         >
-          <span className="text-white relative top-10 left-5 font-bold text-[35px] w-full px-30 h-auto  z-0">
+          <span className="text-white relative top-10 left-35 font-bold text-[35px] w-full  h-auto  z-0">
             {genre} Now
           </span>
           <div

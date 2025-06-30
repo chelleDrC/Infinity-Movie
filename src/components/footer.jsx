@@ -68,7 +68,7 @@ function Footer() {
                 {numLikes}
               </span>
             </div>
-            <span className=" text-[12px] p-5 italic ">
+            <span className=" text-[12px] w-[150px] p-5 italic text-center ">
               {numLikes > 0 ? "Thank You >.<" : "Do You Love it?"}
             </span>
           </button>
